@@ -12,7 +12,7 @@
 - 高速MOS电路
 
 ## 工作流程图
-'''flow
+```flow
 st=>start: 开始
 e=>end: 结束
 op1=>operation: 测量物体材质的选择
@@ -25,4 +25,4 @@ print=>condition: 是否开启打印功能
 opprint=>operation: 打印本次测量结果
 print(yes, right)->opprint->e
 print(no)->e
-'''
+```
