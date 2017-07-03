@@ -16,20 +16,11 @@
 - 测量过程进度条实时监控
 
 ## 系统结构图
-```
-graph LR
-A[Raspberry Pi] --> B(定距超声波采速)
-A --> C(物体重量测量)
-A --> D(显示测量结果)
-A --> E(打印测量结果)
-A --> F(语音提示功能)
-A --> G(按钮设置模式)
-A --> H(实时测量进度条)
-```
+![image](https://raw.githubusercontent.com/tangjiahui1014/DensityMeasurement/master/Image/jiegou.png)
 
 ## 硬件电路图
 ### 声波接收测速电路
-![image](https://raw.githubusercontent.com/tangjiahui1014/DensityMeasurement/master/Image/%E5%A3%B0%E6%B3%A2%E6%8E%A5%E6%94%B6.png)
+![image](https://raw.githubusercontent.com/tangjiahui1014/DensityMeasurement/master/Image/cesu.png)
 
 ### 高速MOS电路
 ![image](https://raw.githubusercontent.com/tangjiahui1014/DensityMeasurement/master/Image/mos.png)
