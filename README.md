@@ -15,31 +15,12 @@
 - 装置具备语音提示功能，更人性化。
 - 测量过程进度条实时监控
 
-## 系统结构图
-![image](https://raw.githubusercontent.com/tangjiahui1014/DensityMeasurement/master/Image/jiegou.png)
-
 ## 硬件电路图
 ### 声波接收测速电路
 ![image](https://raw.githubusercontent.com/tangjiahui1014/DensityMeasurement/master/Image/cesu.png)
 
 ### 高速MOS电路
 ![image](https://raw.githubusercontent.com/tangjiahui1014/DensityMeasurement/master/Image/mos.png)
-
-
-## 工作流程图
-```
-graph TD
-A[开始] --> B(测量物体材质的选择)
-B --> C(一键开始测量)
-C --> D(定距超声波测速)
-D --> E(压力传感测量物体净重)
-E --> F(计算物体密度,体积)
-F --> G(显示本次测量结果)
-G --> H{是否开启打印功能}
-H --> |YES| I(打印本次测量结果)
-I --> Z[结束]
-H --> |NO| Z
-```
 
 ## 理论分析与计算
 
